@@ -32,14 +32,19 @@
     font-family: spartan;
   }
 
-  .center-div {
-    width: 90vw;
-    margin: 0 auto;
+  .main{
+    display: flex;
+    justify-content: center;
   }
 
-  .content {
-    margin-top: 60px;
+
+  .center-div {
+    width: 400px;
+    position:fixed;
+    top: 50%;
+    transform: translateY(-50%);
   }
+
   .calc-theme {
     width: 77%;
   }

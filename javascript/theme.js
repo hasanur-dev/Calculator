@@ -16,6 +16,7 @@ let theme= document.getElementById('theme').innerHTML;
           theme1()
           theme="";
       }
+      event.stopPropagation();
  }
 
 let circle = document.getElementById('theme-changer');
