@@ -186,11 +186,18 @@
     font-family: spartan;
   }
 
-  .center-div {
-    width: 400px;
-    margin: 0 auto;
+  .main{
+    display: flex;
+    justify-content: center;
   }
 
+
+  .center-div {
+    width: 400px;
+    position:fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
   .content {
     margin-top: 80px;
   }
