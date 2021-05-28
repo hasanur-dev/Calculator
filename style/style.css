@@ -198,9 +198,7 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  .content {
-    margin-top: 80px;
-  }
+
   .calc-theme {
     width: 84%;
   }
