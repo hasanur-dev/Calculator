@@ -39,7 +39,7 @@
 
 
   .center-div {
-    width: 400px;
+    width: 90%;
     position:fixed;
     top: 50%;
     transform: translateY(-50%);
